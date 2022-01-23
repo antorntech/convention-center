@@ -72,3 +72,13 @@ body {
     right: 15px;
     font-weight: bold;
 }
+
+.contact-cell {
+    border: 2px solid #e85d04;
+    padding-top: 20px;
+}
+
+.contact-cell i {
+    font-size: 40px;
+    color: #e85d04;
+}
