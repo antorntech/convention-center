@@ -17,3 +17,7 @@ body {
     color: white;
     background-image: linear-gradient(#dc2f02, #e85d04);
 }
+
+.p-color {
+    color: #999393;
+}
