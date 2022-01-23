@@ -73,6 +73,8 @@ body {
     font-weight: bold;
 }
 
+
+/* contact-section-style */
 .contact-cell {
     border: 2px solid #e85d04;
     padding-top: 20px;
@@ -81,4 +83,35 @@ body {
 .contact-cell i {
     font-size: 40px;
     color: #e85d04;
+}
+
+/* footer-section-style */
+
+footer {
+    background-color: #0B0D17;
+}
+
+.icon a {
+    padding-right: 15px;
+    font-size: 30px;
+    color: #fff;
+    transition: .5s;
+}
+
+.icon a:hover {
+    color: #e85d04;
+}
+
+footer h2 {
+    color: #fff;
+    padding-left: 15px;
+}
+
+.hr-line {
+    border-bottom: 2px solid gray;
+}
+
+.footer-button a {
+    text-decoration: none;
+    padding-right: 10px;
 }
