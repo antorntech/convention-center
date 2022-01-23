@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* common-style */
+.primary-btn {
+    padding: 8px 15px;
+    color: white;
+    background-image: linear-gradient(#e85d04, #dc2f02);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.primary-btn:hover {
+    color: white;
+    background-image: linear-gradient(#dc2f02, #e85d04);
+}
