@@ -18,6 +18,57 @@ body {
     background-image: linear-gradient(#dc2f02, #e85d04);
 }
 
+.secondary-btn {
+    color: #e85d04;
+    background-color: #e85b044b;
+    padding: 8px 45px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.secondary-btn:hover {
+    color: #fff;
+    background-color: #e85b044b;
+}
+
 .p-color {
     color: #999393;
+}
+
+.check-fill {
+    color: #e85b044b;
+}
+
+.package-details {
+    transition: .5s;
+}
+
+.package-details:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.premium {
+    position: relative;
+    color: #fff;
+    background-color: #e85b044b;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 35px 20px -20px;
+}
+
+.premium-color {
+    color: #fff;
+}
+
+.quality {
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    width: 102px;
+    background-color: #e85d04;
+    color: #fff;
+    top: -22px;
+    right: 15px;
+    font-weight: bold;
 }
