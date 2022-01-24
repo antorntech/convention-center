@@ -18,6 +18,20 @@ body {
     background-image: linear-gradient(#dc2f02, #e85d04);
 }
 
+.explore-btn {
+    padding: 8px 15px;
+    color: white;
+    background-image: linear-gradient(#e85d04, #dc2f02);
+    border-radius: 3px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.explore-btn:hover {
+    color: white;
+    background-image: linear-gradient(#dc2f02, #e85d04);
+}
+
 .secondary-btn {
     color: #e85d04;
     background-color: #e85b044b;
