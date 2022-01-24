@@ -115,3 +115,21 @@ footer h2 {
     text-decoration: none;
     padding-right: 10px;
 }
+
+
+/* media-query for mobile */
+@media only screen and (max-width: 576px) {
+    .primary-btn {
+        padding: 2px 10px;
+        font-size: 10px;
+    }
+
+    .carousel-item h1 {
+        font-size: 15px;
+    }
+
+    .carousel-item p {
+        font-size: 6px;
+        margin: 0;
+    }
+}
