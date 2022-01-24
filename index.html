@@ -46,6 +46,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Event</a>
                     </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn primary-btn" id="liveToastBtn"><i class="fas fa-user"></i></button>
+
+                        <div class="position-fixed bottom-180 end-0 p-3" style="z-index: 11">
+                        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                            <div class="toast-header">
+                             <h3>Please Log-in</h3>
+                            </div>
+                            <div class="toast-body">
+                               <form action="">
+                                   <input class="form-control mb-3" type="text" placeholder="Enter email">
+                                   <input class="form-control mb-3" type="email" placeholder="Enter password">
+                               </form>
+                               <a class="primary-btn" href="">Log-in</a>
+                            </div>
+                        </div>
+                        </div>
+                    </li>
                     </ul>
                 </div>
                 </div>
@@ -158,8 +176,8 @@
             </div>
             <div class="col packages px-5 px-lg-4">
                 <div class="package-details p-4 premium">
-                    <div class="quality">
-                        <span>premimum</span>
+                    <div class="quality text-center">
+                        <span>premium</span>
                     </div>
                     <h2 class="fw-bold mb-4">$300</h2>
                     <h4 class="fw-bold">Business fair</h4>
@@ -333,5 +351,6 @@
 
     <!-- javasript-js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="js/toast.js"></script>
 </body>
 </html>
